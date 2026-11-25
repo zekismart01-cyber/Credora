@@ -1,0 +1,10 @@
+CREDORA V6 CONNECTED BUILD
+
+1. index.html is the connected web app.
+2. Supabase email/password authentication is used for account access.
+3. Demo phone OTP is 246810; no SMS is sent.
+4. Display name, fictional phone number and simulated loan/application state sync to the signed-in user's private row in public.credora_user_data.
+5. NIN, BVN, date of birth, bank account details and face/biometric data are not sent to Supabase.
+6. The SQL file is included for reference. Project owner previously reported it ran successfully and Email auth is enabled.
+7. In Supabase Authentication URL Configuration, set the Site URL and Redirect URL to the GitHub Pages URL after Pages is enabled.
+8. This is a prototype only, not a lender. No real loans, identity checks or payments occur.
